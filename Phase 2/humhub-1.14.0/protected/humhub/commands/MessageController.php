@@ -51,7 +51,8 @@ class MessageController extends \yii\console\controllers\MessageController
 
         $messages = [];
         foreach ($files as $file) {
-            $messages = array_merge_recursive($messages, $this->extractMessages($file, $config['translator'], $config['ignoreCategories']));
+            $messages = array_merge_recursive($messages, $this->extractMessages($file, $config['translator'],
+            $config['ignoreCategories']));
         }
 
         // Remove unrelated translation categories
