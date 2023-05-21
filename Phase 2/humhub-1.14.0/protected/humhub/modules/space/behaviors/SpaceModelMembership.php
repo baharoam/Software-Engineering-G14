@@ -349,6 +349,7 @@ class SpaceModelMembership extends Behavior
                 case Membership::STATUS_APPLICANT:
                     // If user is an applicant of this space add user and return.
                     $this->addMember($userId);
+                    return;
                 case Membership::STATUS_MEMBER:
                     // If user is already a member just ignore the invitation.
                     return;
