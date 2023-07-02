@@ -1,0 +1,21 @@
+a:2:{i:0;s:1388:"
+
+<a href="/humhub-1.14.0/index.php?r=activity%2Flink&id=3">
+
+    <div class="media">
+                    <!-- Show user image -->
+            <span class="pull-left"><img class="media-object img-rounded" src="/humhub-1.14.0/uploads/profile_image/feef11c1-555c-48ea-a23d-cfb537e650cf.jpg?m=1683016674" width="32" alt="Profile picture of David Roberts" style="width: 32px; height: 32px" data-contentcontainer-id="3"></span>        
+        <!-- Show space image, if you are outside from a space -->
+                                    <div class="img-space pull-left space-profile-acronym-1 space-acronym" style=" background-color: #6fdbe8; width: 20px; height: 20px; font-size: 8.8px; padding: 3.6px 0; border-radius: 2px;" data-contentcontainer-id="2">WS</div><img class="img-space pull-left space-profile-image-1 img-rounded profile-user-photo hidden" src="/humhub-1.14.0/static/img/default_space.jpg" alt="Welcome Space" style=" width: 20px; height: 20px" data-contentcontainer-id="2">            
+        
+        <div class="media-body text-break">
+
+            <!-- Show content -->
+            <strong>David Roberts</strong> joined the space <strong>Welcome Space</strong>            <br>
+
+            <!-- show time -->
+            <time class="tt time timeago" datetime="2023-05-02T10:37:54+02:00" title="May 2, 2023 - 10:37 AM">May 2, 2023</time>        </div>
+    </div>
+
+</a>
+";i:1;N;}
