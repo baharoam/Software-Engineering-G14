@@ -33,6 +33,7 @@ class LogoImage
             try {
                 FileHelper::createDirectory(Yii::getAlias('@webroot/uploads/logo_image/'));
             } catch (Exception $e) {
+                Yii::error($e, 'admin');
             }
             Image::getImagine()->open($file->tempName)->save(Yii::getAlias('@webroot/uploads/logo_image/logo.png'));
         }
@@ -104,8 +105,8 @@ class LogoImage
 
     private static function buildFileName($maxWidth, $maxHeight)
     {
-        $fileName = $maxWidth . 'x' . $maxHeight . '.png';
-        return $fileName;
+        
+        return ($maxWidth . 'x' . $maxHeight . '.png');
     }
 
     private static function getOriginalFile()

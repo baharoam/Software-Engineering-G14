@@ -4,6 +4,7 @@
  /* @var $unpinUrl string */
  /* @var $pinUrl string */
 ?>
+<ul>
 <li>
     <?php if ($isPinned): ?>
         <a href="#" data-action-click="unpin" data-action-url="<?= $unpinUrl ?>">
@@ -15,3 +16,4 @@
         </a>
     <?php endif; ?>
 </li>
+</ul>
